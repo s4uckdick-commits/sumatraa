@@ -1,0 +1,1028 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sumatra Travel - Premium turistička agencija. Otkrijte Bali, Grčku i Italiju uz personalizovane aranžmane i luksuzan smeštaj."
+    />
+    <meta name="author" content="Sumatra Travel" />
+    <title>Sumatra Travel | Premium Putovanja & Luksuzne Destinacije</title>
+
+    <!-- Font Awesome (single include) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- removed duplicate Font Awesome include -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/l10n/sr.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header" id="navbar">
+      <div class="container nav-container">
+        <a class="logo-wrapper" aria-label="Sumatra Travel Home">
+          <img
+            src="resursi/slike/Sumatra.svg"
+            alt="Sumatra Logo"
+            class="nav-logo-box"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="hamburger-btn"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <div class="hamb-box">
+            <span class="hamb-line top"></span>
+            <span class="hamb-line bottom"></span>
+          </div>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#hero" class="nav-link active">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a href="#onama" class="nav-link">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a href="#booking-engine" class="nav-link">Destinacije</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#newsletter" class="nav-link">Newsletter</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kontakt" class="nav-cta">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="hero-modular-ultra"
+        aria-label="Naslovna sekcija"
+      >
+        <div class="hero-bg-accent" aria-hidden="true">SUMATRA</div>
+
+        <div class="container hero-inner">
+          <div class="hero-main-display">
+            <article class="hero-slide active">
+              <div class="hero-text-side">
+                <header class="hero-header">
+                  <div class="hero-tag">
+                    <span class="tag-line"></span>
+                    <span class="tag-text">Premium Iskustvo</span>
+                  </div>
+
+                  <h1 class="hero-display">
+                    Kreiramo <br />
+                    <span class="text-gradient">nezaboravna</span>
+                    iskustva<span class="hero-dot">.</span>
+                  </h1>
+                </header>
+
+                <p class="hero-paragraph">
+                  Od egzotičnih destinacija do urbanih avantura, oblikujemo
+                  putovanja koja postaju deo vaše priče.
+                </p>
+
+                <div class="hero-actions">
+                  <button class="btn-glass-primary">
+                    <span>Započni Avanturu</span>
+                    <svg
+                      class="btn-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <path
+                        d="M5 12h14M12 5l7 7-7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+
+                  <div class="hero-trust-badge">
+                    <div class="avatar-group">
+                      <img src="https://i.pravatar.cc/40?u=1" alt="User" />
+                      <img src="https://i.pravatar.cc/40?u=2" alt="User" />
+                      <img src="https://i.pravatar.cc/40?u=3" alt="User" />
+                    </div>
+                    <span class="trust-text">Pridruži se 4k+ putnika</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-visual-side">
+                <div class="main-frame">
+                  <img
+                    src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1200"
+                    alt="Santorini, Grčka - Luksuzna destinacija"
+                    class="hero-img"
+                  />
+
+                  <div class="floating-info-card" data-aos="fade-left">
+                    <div class="info-content">
+                      <strong>Oia, Santorini</strong>
+                      <span>Grčka • Maj 2026</span>
+                    </div>
+                  </div>
+
+                  <div class="frame-overlay"></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <span class="scroll-text">Istraži</span>
+        </div>
+      </section>
+
+      <section class="partners-section-premium" aria-label="Naši partneri">
+        <div class="container">
+          <div class="partners-header">
+            <div class="header-line"></div>
+            <h2 class="partners-title">
+              Poverenje nam ukazuju vodeći partneri
+            </h2>
+            <div class="header-line"></div>
+          </div>
+
+          <div class="partners-viewport">
+            <div class="partners-track">
+              <div class="logo-group">
+                <div class="logo-item">
+                  <img src="resursi/slike/FilipTravel.svg" alt="Filip Travel" />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/GrandTours.svg" alt="Grand Tours" />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/hellena_logo.svg" alt="Hellena" />
+                </div>
+                <div class="logo-item">
+                  <img
+                    src="resursi/slike/LazarAgencija.svg"
+                    alt="Lazar Agencija"
+                  />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/MikiTravel.svg" alt="Miki Travel" />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/Travelino.svg" alt="Travelino" />
+                </div>
+              </div>
+
+              <div class="logo-group" aria-hidden="true">
+                <div class="logo-item">
+                  <img src="resursi/slike/FilipTravel.svg" alt="Filip Travel" />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/GrandTours.svg" alt="Grand Tours" />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/hellena_logo.svg" alt="Hellena" />
+                </div>
+                <div class="logo-item">
+                  <img
+                    src="resursi/slike/LazarAgencija.svg"
+                    alt="Lazar Agencija"
+                  />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/MikiTravel.svg" alt="Miki Travel" />
+                </div>
+                <div class="logo-item">
+                  <img src="resursi/slike/Travelino.svg" alt="Travelino" />
+                </div>
+              </div>
+            </div>
+
+            <div class="fade-edge edge-left"></div>
+            <div class="fade-edge edge-right"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="onama" class="about-signature">
+        <div class="signature-container">
+          <div class="sig-content-side">
+            <div class="sig-header">
+              <div class="sig-breadcrumb">
+                <span class="sig-number">01</span>
+                <span class="sig-category">O nama / Filozofija</span>
+              </div>
+              <h2 class="sig-title">
+                Tamo gde se <br />
+                <span class="sig-italic">luksuz</span> spaja sa <br />
+                <span class="sig-bold">autentičnim.</span>
+              </h2>
+            </div>
+
+            <div class="sig-description">
+              <p class="sig-lead">
+                Sumatra Travel ne nudi destinacije, već promenu stanja svesti.
+                Mi smo kustosi vašeg slobodnog vremena, posvećeni detaljima koji
+                čine razliku između običnog puta i životne prekretnice.
+              </p>
+
+              <div class="sig-metrics">
+                <div class="metric-item">
+                  <span class="m-value">15</span>
+                  <span class="m-label"
+                    >Godina <br />
+                    tradicije</span
+                  >
+                </div>
+                <div class="metric-divider"></div>
+                <div class="metric-item">
+                  <span class="m-value">12k</span>
+                  <span class="m-label"
+                    >Privatnih <br />
+                    ekspedicija</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sig-visual-side">
+            <div class="visual-canvas">
+              <div class="main-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200"
+                  alt="Masterpiece Landscape"
+                  class="main-sig-img"
+                />
+
+                <div class="image-floating-info">
+                  <div class="info-line"></div>
+                  <div class="info-text">
+                    <span class="info-loc">Signature Experience</span>
+                    <span class="info-coords">44.7866° N, 20.4489° E</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sig-watermark">SUMATRA</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking-engine" class="booking-module">
+        <div class="filter-section container">
+          <div class="pro-filter-wrapper">
+            <form class="pro-filter" id="main-booking-form">
+              <div class="f-group location-group">
+                <label>Destinacija</label>
+                <div class="input-with-icon" id="trigger-location">
+                  <input
+                    type="text"
+                    id="loc-input"
+                    placeholder="Gde putujemo?"
+                    readonly
+                  />
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+
+                <div class="filter-popup" id="loc-popup">
+                  <div class="popup-search-bar">
+                    <i class="fas fa-search"></i>
+                    <input
+                      type="text"
+                      id="dest-search"
+                      placeholder="Pretraži državu ili grad..."
+                    />
+                  </div>
+
+                  <div class="dest-viewport">
+                    <div class="dest-slider-rail" id="dest-rail">
+                      <div class="dest-step" id="step-countries">
+                        <p class="popup-label">Izaberite destinaciju</p>
+                        <div class="countries-grid"></div>
+                      </div>
+
+                      <div class="dest-step" id="step-cities">
+                        <div class="back-to-countries">
+                          <i class="fas fa-chevron-left"></i> Nazad na države
+                        </div>
+                        <p class="popup-label" id="current-country-name">
+                          Gradovi
+                        </p>
+
+                        <div
+                          class="cities-columns-container"
+                          id="cities-grid"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="f-group date-group">
+                <label>Period boravka</label>
+                <div class="input-with-icon" id="trigger-calendar">
+                  <input
+                    type="text"
+                    id="date-input"
+                    placeholder="Odaberite datume"
+                    readonly
+                  />
+                  <i class="far fa-calendar-alt"></i>
+                </div>
+
+                <div class="filter-popup calendar-popup" id="cal-popup">
+                  <div class="calendar-header">
+                    <button type="button" class="cal-nav prev">
+                      <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="calendar-current-view">
+                      <span class="cal-month">Februar</span>
+                      <select class="cal-year-select">
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                      </select>
+                    </div>
+                    <button type="button" class="cal-nav next">
+                      <i class="fas fa-chevron-right"></i>
+                    </button>
+                  </div>
+                  <div class="calendar-grid">
+                    <div class="day-names">
+                      <span>Po</span><span>Ut</span><span>Sr</span
+                      ><span>Če</span><span>Pe</span><span>Su</span
+                      ><span>Ne</span>
+                    </div>
+                    <div class="days-container"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="f-group travel-details-group">
+                <label>Putnici & Prevoz</label>
+                <div class="input-with-icon" id="trigger-travelers">
+                  <span id="travelers-display">2 Putnika, Avion</span>
+                  <i class="fas fa-users"></i>
+                </div>
+
+                <div class="filter-popup travel-popup" id="travel-popup">
+                  <div class="passenger-selector">
+                    <span class="sub-label">Broj putnika</span>
+                    <div class="counter-control">
+                      <button type="button" class="count-btn" id="minus-p">
+                        -
+                      </button>
+                      <span id="p-count-val">2</span>
+                      <button type="button" class="count-btn" id="plus-p">
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="transport-selector-v2">
+                    <span class="sub-label">Način prevoza</span>
+                    <div class="transport-options-grid">
+                      <label class="t-opt">
+                        <input
+                          type="radio"
+                          name="transport"
+                          value="avion"
+                          checked
+                        />
+                        <div class="t-box">
+                          <i class="fas fa-plane"></i><span>Avion</span>
+                        </div>
+                      </label>
+                      <label class="t-opt">
+                        <input type="radio" name="transport" value="autobus" />
+                        <div class="t-box">
+                          <i class="fas fa-bus"></i><span>Bus</span>
+                        </div>
+                      </label>
+                      <label class="t-opt">
+                        <input
+                          type="radio"
+                          name="transport"
+                          value="sopstveni"
+                        />
+                        <div class="t-box">
+                          <i class="fas fa-car"></i><span>Sopstveni</span>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="f-group search-action">
+                <button type="submit" class="btn-search-main">
+                  <i class="fas fa-search"></i>
+                  <span>Pretraži</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="offers-container container">
+          <section class="offer-category" data-cat="letovanje">
+            <div class="category-header">
+              <h3 class="cat-name">Letovanje</h3>
+              <div class="slider-nav">
+                <button class="s-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="s-next">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="offer-slider-track">
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="offers-container container">
+          <section class="offer-category" data-cat="letovanje">
+            <div class="category-header">
+              <h3 class="cat-name">Zimovanje</h3>
+              <div class="slider-nav">
+                <button class="s-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="s-next">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="offer-slider-track">
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="offers-container container">
+          <section class="offer-category" data-cat="letovanje">
+            <div class="category-header">
+              <h3 class="cat-name">Specijalne Destinacije</h3>
+              <div class="slider-nav">
+                <button class="s-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="s-next">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="offer-slider-track">
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="offers-container container">
+          <section class="offer-category" data-cat="letovanje">
+            <div class="category-header">
+              <h3 class="cat-name">Evropa</h3>
+              <div class="slider-nav">
+                <button class="s-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="s-next">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="offer-slider-track">
+              <div
+                class="compact-card"
+                data-id="101"
+                data-title="Lefkada, Hotel Crystal"
+              >
+                <div class="c-card-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600"
+                    alt="Lefkada"
+                  />
+                </div>
+
+                <div class="c-card-body">
+                  <div class="c-meta-top">
+                    <span class="c-loc">Lefkada, Grčka</span>
+                  </div>
+
+                  <h4 class="c-hotel">Hotel Crystal Waters</h4>
+                  <p class="c-date">15. Jun - 25. Jun</p>
+
+                  <div class="c-status-row">
+                    <span class="c-inquiry-label">Cena na upit</span>
+                    <span class="c-click-hint"
+                      >Detaljnije <i class="fas fa-chevron-right"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <div id="inquiry-modal" class="modal-premium">
+        <div class="modal-content">
+          <h3>Pošaljite upit za: <span id="selected-offer-name">...</span></h3>
+          <form id="inquiry-form">
+            <input type="hidden" name="offer_id" id="modal-offer-id" />
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Vaše ime" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail adresa"
+                required
+              />
+            </div>
+            <textarea
+              name="message"
+              placeholder="Dodatna pitanja..."
+            ></textarea>
+            <button type="submit" class="btn-send-inquiry">
+              Pošalji zahtev
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <section id="faq" class="faq-lucid">
+        <div class="faq-container">
+          <div class="faq-header">
+            <div class="lucid-badge">Podrška & Informacije</div>
+            <h2 class="heading-display">Česta pitanja</h2>
+            <p class="text-muted">
+              Sve što treba da znate o vašem sledećem luksuznom putovanju.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-node">
+              <button class="faq-trigger">
+                <span class="faq-question"
+                  >Kako mogu rezervisati putovanje?</span
+                >
+                <div class="lucid-icon-box">
+                  <div class="line-v"></div>
+                  <div class="line-h"></div>
+                </div>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  <p>
+                    Rezervacija se vrši putem naše inteligentne forme ili
+                    direktnim kontaktom sa vašim ličnim travel agentom. Proces
+                    je optimizovan za maksimalnu privatnost i brzinu.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-node">
+              <button class="faq-trigger">
+                <span class="faq-question"
+                  >Da li su cene na sajtu konačne?</span
+                >
+                <div class="lucid-icon-box">
+                  <div class="line-v"></div>
+                  <div class="line-h"></div>
+                </div>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  <p>
+                    Apsolutno. Naša politika transparentnosti podrazumeva nula
+                    skrivenih troškova. Prikazana cena obuhvata sve takse,
+                    osiguranja i premium usluge navedene u aranžmanu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="newsletter-section">
+        <div class="lucid-container">
+          <div class="newsletter-glass-card">
+            <div class="glass-shimmer-overlay"></div>
+
+            <div class="newsletter-grid">
+              <div class="newsletter-content">
+                <div class="lucid-badge">Pretplatite se</div>
+                <h2 class="heading-lucid">
+                  Spremni za sledeću <br /><span>avanturu?</span>
+                </h2>
+                <p class="text-muted">
+                  Pridružite se zajednici koja prva dobija pristup tajnim
+                  lokacijama i personalizovanim ponudama.
+                </p>
+              </div>
+
+              <div class="newsletter-action">
+                <form class="newsletter-form-lucid" id="newsletter-form">
+                  <div class="lucid-input-wrapper">
+                    <i class="far fa-envelope-open input-icon"></i>
+                    <input
+                      type="email"
+                      class="lucid-input"
+                      placeholder="Vaša profesionalna email adresa"
+                      autocomplete="off"
+                      required
+                    />
+                    <div class="input-focus-line"></div>
+                  </div>
+
+                  <button type="submit" class="btn-lucid-submit">
+                    <span class="btn-text">PRIJAVI SE</span>
+                    <div class="btn-icon-circle">
+                      <i class="fas fa-paper-plane"></i>
+                    </div>
+                  </button>
+                </form>
+
+                <p class="form-disclaimer">
+                  *Poštujemo vašu privatnost. Odjava je moguća u bilo kom
+                  trenutku.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer-lucid">
+      <div class="lucid-container">
+        <div class="footer-grid">
+          <div class="footer-col brand-col">
+            <div class="f-logo-wrapper">
+              <img
+                src="resursi/slike/Sumatra.svg"
+                alt="Sumatra Travel"
+                class="f-logo"
+              />
+            </div>
+            <p class="f-desc">
+              Arhitekte vaših najlepših uspomena. Kreiramo luksuzna iskustva
+              koja redefinišu pojam putovanja.
+            </p>
+            <div class="f-socials">
+              <a href="#" class="s-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="s-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="s-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="f-title">Agencija</h4>
+            <ul class="f-links">
+              <li><a href="#onama">O nama</a></li>
+              <li><a href="#destinacije">Destinacije</a></li>
+              <li><a href="#kontakt">Kontakt centar</a></li>
+              <li><a href="#">Travel Journal</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="f-title">Top Ponude</h4>
+            <ul class="f-links">
+              <li>
+                <a href="#">Grčka 2026 <span>Premium</span></a>
+              </li>
+              <li><a href="#">Bali Escape</a></li>
+              <li><a href="#">Zanzibar Exotic</a></li>
+              <li><a href="#">Sejšeli Private</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col contact-col">
+            <h4 class="f-title">Kontakt Centar</h4>
+            <div class="f-contact-cards">
+              <a href="tel:+381641185578" class="contact-node">
+                <div class="c-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="c-info">
+                  <span class="c-label">Pozovite nas</span>
+                  <span class="c-value">+381 64 118 5578</span>
+                </div>
+              </a>
+              <a href="mailto:mysumatratravels@gmail.com" class="contact-node">
+                <div class="c-icon"><i class="fas fa-envelope"></i></div>
+                <div class="c-info">
+                  <span class="c-label">Pišite nam</span>
+                  <span class="c-value">mysumatratravels@gmail.com</span>
+                </div>
+              </a>
+              <div class="contact-node">
+                <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="c-info">
+                  <span class="c-label">Posetite nas</span>
+                  <span class="c-value">Kneza Miloša 40, Valjevo</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="f-bottom-inner">
+            <p class="copyright">
+              &copy; 2026 Sumatra Travel Agency. Sva prava zadržana.
+            </p>
+            <div class="f-legal">
+              <a href="privacy.html#privacy">Privatnost</a>
+              <span class="dot"></span>
+              <a href="privacy.html#terms">Uslovi</a>
+            </div>
+            <button
+              class="back-to-top"
+              onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+            >
+              <i class="fas fa-chevron-up"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CONTACT OVERLAY -->
+    <div id="contact-overlay" class="contact-overlay">
+      <button class="close-overlay" aria-label="Zatvori">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="contact-container">
+        <div class="contact-grid">
+          <div class="contact-visual-side">
+            <span class="badge">Kontaktirajte nas</span>
+            <h2>
+              Hajde da planiramo vaše
+              <span class="text-gradient">sledeće putovanje.</span>
+            </h2>
+            <p>Naš tim stručnjaka je tu da odgovori na svako vaše pitanje.</p>
+
+            <div class="quick-contact-info">
+              <div class="q-item">
+                <div class="q-icon"><i class="fas fa-phone-alt"></i></div>
+                <div>
+                  <small>Pozovite nas</small>
+                  <p>+381 64 118 5578</p>
+                </div>
+              </div>
+              <div class="q-item">
+                <div class="q-icon"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <small>Pišite nam</small>
+                  <p>mysumatratravels@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-side">
+            <form id="main-contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Ime i Prezime</label>
+                  <input type="text" placeholder="Petar Petrović" required />
+                </div>
+                <div class="form-group">
+                  <label>Email Adresa</label>
+                  <input type="email" placeholder="petar@gmail.com" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Destinacija (Opciono)</label>
+                <input type="text" placeholder="Npr. Lefkada, Grčka" />
+              </div>
+              <div class="form-group">
+                <label>Vaša Poruka</label>
+                <textarea
+                  placeholder="Recite nam nešto više o vašim željama..."
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary-send">
+                <span>POŠALJI UPIT</span>
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+  </body>
+</html>
